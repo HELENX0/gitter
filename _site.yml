@@ -5,8 +5,12 @@ description: |
 output_dir: "docs"
 navbar:
   right:
-    - text: "Home"
+    - text: "home"
       href: index.html
-    - text: "About"
+    - text: "about"
       href: about.html
+    - text: "UNSW work"
+      href: UNSW_work.html      
+    - text: "RMIT work"
+      href: RMIT_work.html
 output: distill::distill_article
