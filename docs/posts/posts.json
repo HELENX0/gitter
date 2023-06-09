@@ -1,5 +1,17 @@
 [
   {
+    "path": "posts/welcome/",
+    "title": "Welcome to blog",
+    "description": "Welcome to our new blog, blog. We hope you enjoy \nreading what we have to say!",
+    "author": [],
+    "date": "2023-06-10",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2023-06-10T00:09:19+10:00",
+    "input_file": "welcome.knit.md"
+  },
+  {
     "path": "posts/2023-06-09-chap01/",
     "title": "chap01",
     "description": {},
@@ -10,17 +22,5 @@
     "preview": {},
     "last_modified": "2023-06-09T23:50:55+10:00",
     "input_file": {}
-  },
-  {
-    "path": "posts/welcome/",
-    "title": "Welcome to blog",
-    "description": "Welcome to our new blog, blog. We hope you enjoy \nreading what we have to say!",
-    "author": [],
-    "date": "2023-06-10",
-    "categories": [],
-    "contents": "\n\n\n\n",
-    "preview": {},
-    "last_modified": "2023-06-10T00:01:15+10:00",
-    "input_file": "welcome.knit.md"
   }
 ]
