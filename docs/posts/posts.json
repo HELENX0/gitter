@@ -15,5 +15,22 @@
     "preview": {},
     "last_modified": "2023-06-09T23:35:06+10:00",
     "input_file": {}
+  },
+  {
+    "path": "posts/2023-06-09-unmarked-assignment-1/",
+    "title": "unmarked assignment 1",
+    "description": {},
+    "author": [
+      {
+        "name": "helen x0b",
+        "url": {}
+      }
+    ],
+    "date": "2023-06-09",
+    "categories": [],
+    "contents": "\nsubmitted (pushed) to GitHub\n1. What is your previous R and programming experience (if any)?\nI taught myself Stata using a udemy course and googling, while I was a clinical trial coordinator, mainly for data wrangling and very basic data analysis.\nI started a grad cert at RMIT last year completing 2 intensive subjects (with a fabulous facilitator called Tam) in R and python (including jupyter and rmarkdown). I am slowly re-learning these.\nI’m slowly learning SAS in HDAT9400.\n2. A colleague comes to you and claims ‘I always use a bar chart because it’s always the best presentation format.’ Is your colleague speaking sense? If so why is the statement right? If not how do you counter the argument?\nWhile better than the infamous pie chart, I doubt the bar chart is always better.\nThe advantage of bar charts - that are well labelled and have good data : aesthetics or ink ratios - is that comparison of counts or across categories can be made quickly.\nBut bar charts are not good for showing a number of other data concepts, for example time (need a series of bar charts or timeline), geospatial data, clusters (eg scatterplot), distributions (a histogram or density plot) or proportions (a stacked bar might be).\nThis is a handy link (excerpt shown) for countering such a comment from a colleague.\n\n3. When communicating it is very important to ‘know your …’? Finish this sentence.\nyour audience and\nyour data and\nwho’s paying your wages.\n4. Why is an automated approach to data manipulation better than a manual approach? Why should we write code to manipulate data rather than do it by hand?\nThe key benefit of writing code to manipulate data is that the method\ncan be scrutinised by others (or you at a later date, ‘future you’) and\ncan be repeated. This is fundamental to the scientific method. This you\nmeans you (or others) can iterate and improve the approach.\n5. What does CRAN stand for and what is it?\nComprehensive R Archive Network (CRAN) is R’s central software\nrepository, supported by the R Foundation.\nIt’s main location is here -> https://CRAN.R-project.org/ and it is mirrored globally.\nIt is the official place to download R and all the R packages.\n6. State one advantage to the literate programming approach?\n\nThe report is the analysis and the analysis is the report.\n\nIn literate programming (after Knuth) the goal is to tell the computer what to do and tell other humans what we are telling the computer to do.\nThe main advantage is the two (the report for humans and the analysis for the computer) are combined in one document and saves on copying from one to another and this makes changes and version control more straightforward.\nRMarkdown and knitr are the key enabler for literate programming.\nRefresher:\nR Markdown allows outputting to different formats.\nCan also install R Markdown templates\nRef –> http://rmarkdown.rstudio.com\n--- #YAML (yet another markup language) output: html_document\n---\nFormatting options –>\nhttps://bookdown.org/yihui/bookdown/markdown-syntax.html#inline-formatting\nitalic bold\nheading\nnextdown heading\nlist\nlist\n\nlist\nlist\n[text we want linked](http://website.com)\n![image caption](images/logo.png)\nLatex for equations, lovely for output typeset quality\nfor more knitr instructions -> https://yihui.org/knitr/options/\nSHORT CUTS\nembedded code chunks: OPTION COMMAND I to insert\nto knit or run SHIFT COMMAND K\ntypically start with\n```{r setup, include=FALSE} –>run but don’t show\nknitr::opts_chunk$set(echo = TRUE) –> set up defaults show the code\nand the output ```\nAlso a thing called pandoc\n\n\n\n",
+    "preview": {},
+    "last_modified": "2023-06-09T23:46:42+10:00",
+    "input_file": "unmarked-assignment-1.knit.md"
   }
 ]
